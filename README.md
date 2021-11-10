@@ -29,6 +29,7 @@
 1. [gym-fetch](https://github.com/openai/gym/tree/master/gym/envs/robotics)：机械臂系列：slide，push，pick and place。
 2. [robosuite](https://github.com/ARISE-Initiative/robosuite/)：如果做机械臂相关的必看！斯坦福开源的Surreal机器人项目，基于Mujoco，包含单/双臂与多种手爪组合配置，task包括pick&place、装配协作等。
 3. flow-rl：如果做击球相关的，可以参考一下。
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210503230410787.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hlaGVkYWRhcQ==,size_16,color_FFFFFF,t_70)
 
 
