@@ -46,6 +46,7 @@
 3. 更新版本的文档：[https://mujoco.readthedocs.io/en/latest/overview.html](https://mujoco.readthedocs.io/en/latest/overview.html) 对很多问题有更详细的介绍，适合深入开发的人员观看。
 4. 修改日志：[https://mujoco.readthedocs.io/en/latest/changelog.html](https://mujoco.readthedocs.io/en/latest/changelog.html) 好像没什么特别的内容。
 5. 老版本的mujoco仍然可以用，可以免费到2031年。
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/6066bd44064c4efd943c7b58922531e4.jpg)
 
 
@@ -55,6 +56,19 @@
 ### 1. 创建系统默认对象
 ### 2. 渲染场景
 ### 3. 设定对象常见属性
+#### 3.1 设定物体的初始速度：
+示例提问和回答：
+   Q1：请问mujoco仿真可以在哪里设置模型的初始速度吗？不知道是应该在xml文件里设置还是在控制程序里设置？
+   A1：通过sim.data.set_joint_qvel函数设定，或者sim.data.qvel[i]=5直接赋值。
+       其中sim.data.qvel[i]是得给定joint的index，set_joint_qvel函数，顾名思义是给定joint的name，才能设定速度值。
+       示例图片：
+sim.data.set_joint_qvel得提前知道关节的名称：
+
+![图片描述](https://img-blog.csdnimg.cn/54fcd30a090444a1a972034293491a9a.png)
+
+sim.data.qvel[i]得提前知道关节的索引，索引可以根据函数获取：self.sim.model.get_joint_qvel_addr(joint_name)，本质上还是得用关节名字
+
+
 ### 4. 修改对象常见属性
 ### 5. 驱动对象
 ### 6. 弹性碰撞
