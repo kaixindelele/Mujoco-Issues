@@ -40,6 +40,14 @@
 
 [PyBullet笔记（一）pybullet及其依赖项的安装、pybullet初探](https://zhuanlan.zhihu.com/p/347078711)
 
+### mujoco相关链接：
+1. 仿真部分的源代码：[https://github.com/deepmind/mujoco/blob/main/sample/simulate.cc](https://github.com/deepmind/mujoco/blob/main/sample/simulate.cc) 
+2. 上面源代码主文件和文档的对应关系可以看：[https://mujoco.readthedocs.io/en/latest/programming.html](https://mujoco.readthedocs.io/en/latest/programming.html)
+3. 更新版本的文档：[https://mujoco.readthedocs.io/en/latest/overview.html](https://mujoco.readthedocs.io/en/latest/overview.html) 对很多问题有更详细的介绍，适合深入开发的人员观看。
+4. 修改日志：[https://mujoco.readthedocs.io/en/latest/changelog.html](https://mujoco.readthedocs.io/en/latest/changelog.html) 好像没什么特别的内容。
+5. 老版本的mujoco仍然可以用，可以免费到2031年。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/6066bd44064c4efd943c7b58922531e4.jpg)
+
 
 
 ## 三、mujoco-py的例程
@@ -66,3 +74,19 @@
 ### 12. 模块化搭建机器人模型：robosuite
 超详细的文档！[http://robosuite.ai/docs/overview.html](http://robosuite.ai/docs/overview.html)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210503231045747.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hlaGVkYWRhcQ==,size_16,color_FFFFFF,t_70)
+
+
+## 联系方式：
+ps: 欢迎做强化的同学加群一起学习：
+
+深度强化学习-DRL：799378128
+
+Mujoco建模：818977608
+
+欢迎玩其他物理引擎的同学一起玩耍~
+
+欢迎关注知乎帐号：[未入门的炼丹学徒](https://www.zhihu.com/people/heda-he-28)
+
+CSDN帐号：[https://blog.csdn.net/hehedadaq](https://blog.csdn.net/hehedadaq)
+
+极简spinup+HER+PER代码实现：[https://github.com/kaixindelele/DRLib](https://github.com/kaixindelele/DRLib)
