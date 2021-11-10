@@ -57,11 +57,17 @@
 ### 2. 渲染场景
 ### 3. 设定对象常见属性
 #### 3.1 设定物体的初始速度：
+
 示例提问和回答：
+
    Q1：请问mujoco仿真可以在哪里设置模型的初始速度吗？不知道是应该在xml文件里设置还是在控制程序里设置？
+   
    A1：通过sim.data.set_joint_qvel函数设定，或者sim.data.qvel[i]=5直接赋值。
+   
        其中sim.data.qvel[i]是得给定joint的index，set_joint_qvel函数，顾名思义是给定joint的name，才能设定速度值。
+       
        示例图片：
+       
 sim.data.set_joint_qvel得提前知道关节的名称：
 
 ![图片描述](https://img-blog.csdnimg.cn/54fcd30a090444a1a972034293491a9a.png)
