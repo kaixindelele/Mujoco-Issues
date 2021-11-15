@@ -40,6 +40,8 @@
 
 [PyBullet笔记（一）pybullet及其依赖项的安装、pybullet初探](https://zhuanlan.zhihu.com/p/347078711)
 
+[最全的强化相关的开源环境！！！强烈推荐](https://github.com/clvrai/awesome-rl-envs)
+
 ### mujoco相关链接：
 1. 仿真部分的源代码：[https://github.com/deepmind/mujoco/blob/main/sample/simulate.cc](https://github.com/deepmind/mujoco/blob/main/sample/simulate.cc) 
 2. 上面源代码主文件和文档的对应关系可以看：[https://mujoco.readthedocs.io/en/latest/programming.html](https://mujoco.readthedocs.io/en/latest/programming.html)
