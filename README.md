@@ -90,6 +90,22 @@ sim.data.qvel[i]得提前知道关节的索引，索引可以根据函数获取�
 ### 11. 外部导入机器人模型
 1. 在MUJOCO建立机器人模型：[BUILDING MODELS IN MUJOCO](https://studywolf.wordpress.com/2020/03/22/building-models-in-mujoco/)
 
+## robosuite的render和image冲突问题:
+相信很多同学在使用robosuite的时候，会被它的`has_render`, `has_offscreen_renderer`, `use_camera_obs`,这三个鬼东西整的不知道该如何搭配。
+
+更诡异的是Ubuntu16.04和Ubuntu18.04及以上的配置还不一样！
+
+### Ubuntu18.04及以上的配置：
+1. 无图无渲染，即不需要渲染，也不需要offscreen产生图片信息：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/5d7993832ea641c49c57c38d962f9442.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAaGVoZWRhZGFx,size_20,color_FFFFFF,t_70,g_se,x_16)
+
+2. 渲染无图：即渲染了，但是不产生图片信息：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/af536fe3f8324765ab680d1653f1351a.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAaGVoZWRhZGFx,size_20,color_FFFFFF,t_70,g_se,x_16)
+
+3. 不渲染有图：即不渲染，但是在observation里面能够拿到对应相机视角下图片的数据：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/34fce303eaf445569401358be0804a8b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAaGVoZWRhZGFx,size_20,color_FFFFFF,t_70,g_se,x_16)
+
 包括如何从Skechup（草图大师）创建模型，导出stl文件；
 到提供xml文件模板，比较齐全
 
