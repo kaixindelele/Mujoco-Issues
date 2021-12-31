@@ -113,6 +113,8 @@ sim.data.qvel[i]得提前知道关节的索引，索引可以根据函数获取�
 超详细的文档！[http://robosuite.ai/docs/overview.html](http://robosuite.ai/docs/overview.html)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210503231045747.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hlaGVkYWRhcQ==,size_16,color_FFFFFF,t_70)
 
+### 13.[mujoco_py的代码示例！！！](https://www.codenong.com/3160b48f32144f352b05/)
+
 
 ## 联系方式：
 ps: 欢迎做强化的同学加群一起学习：
