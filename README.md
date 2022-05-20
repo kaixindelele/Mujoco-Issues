@@ -115,6 +115,9 @@ sim.data.qvel[i]得提前知道关节的索引，索引可以根据函数获取�
 
 ### 13.[mujoco_py的代码示例！！！](https://www.codenong.com/3160b48f32144f352b05/)
 
+### 14. windows10安装教程：
+[win10安装mujoco_py最新版本，亲测有效](https://blog.csdn.net/weixin_43263346/article/details/122062297)
+
 
 ## 联系方式：
 ps: 欢迎做强化的同学加群一起学习：
