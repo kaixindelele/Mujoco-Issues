@@ -56,7 +56,29 @@
 ## 三、mujoco-py的例程
 待更新
 ### 1. 创建系统默认对象
-### 2. 渲染场景
+### 2. 两种不兼容的渲染场景设置：
+
+1. 直接渲染：env.render()
+需要确保路径有这个玩意儿：
+可以在终端导入：
+```
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
+```
+也可以在pycharm里面直接添加.
+
+2. 从mujoco中拿到图片：img = env.render('rgb_array', 512, 512)
+如果报错：Failed to initialize OpenGL
+
+则参考这个链接：[mujoco获取rgb_array报错Failed to initialize OpenGL](https://blog.csdn.net/hehedadaq/article/details/123012530)
+注释掉：
+```
+# export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
+```
+或进入pycharm的envronment virables，找到LD_PRELOAD，删掉上面那个东西就好了。
+
+**这两种渲染是不能兼容的，必须手动配置！**
+
+
 ### 3. 设定对象常见属性
 #### 3.1 设定物体的初始速度：
 
