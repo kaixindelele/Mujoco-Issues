@@ -17,9 +17,12 @@
 
 ## 二、mujoco建模教程和优质资源总结：
 
+
 ### 2023 mujoco服务器配置教程：
 
-[服务器环境创建](https://junmingyang.notion.site/9587d3795c7743168089ff3da0bd2704)
+
+[2023 mujoco服务器配置教程服务器环境创建](https://junmingyang.notion.site/9587d3795c7743168089ff3da0bd2704)
+
 
 
 ### mujoco安装教程：
