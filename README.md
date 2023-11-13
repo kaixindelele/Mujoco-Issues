@@ -17,6 +17,11 @@
 
 ## 二、mujoco建模教程和优质资源总结：
 
+### 2023 mujoco服务器配置教程：
+
+[服务器环境创建](https://junmingyang.notion.site/9587d3795c7743168089ff3da0bd2704)
+
+
 ### mujoco安装教程：
 1. Linux系统完善教程，兼容Ubuntu16.04和Ubuntu18.04：
 [快速安装最新版mujoco200, mujoco-py2.2.0.7,gym\[all\],robosuite，解决gcc等报错问题](https://blog.csdn.net/hehedadaq/article/details/109012048)
